@@ -1,12 +1,12 @@
 
 # STEP-02. Dianne Russel STUDIO
 
-DAN-IT. Full Stack course. Module 02. Advanced HTML & CSS..
-STEP PROJECT 02 - Responsive (Mobile First).
+DAN-IT. Full Stack course. Module 02. Advanced HTML & SCSS
+STEP PROJECT 02 | Dianne STUDIO.
 
 # Technology Stack
 
-HTML5, CSS3, Gulp, SASS.
+HTML5, CSS3, Gulp, SCSS.
 
 # Contributors
 
@@ -18,8 +18,9 @@ Julia Verchyonova:
 
 - Header;
 - First-page;
+- About;
 - Services;
-- Portfolio;
+- Works;
 - Clients;
 - Team;
 - Contact;
@@ -27,4 +28,6 @@ Julia Verchyonova:
 
 # Web Preview link
 
-# GitLab link
+# GitHub link
+
+https://github.com/JuliaAgama/2024_STEP_02_advaned_HTML_CSS_Dianne-STUDIO

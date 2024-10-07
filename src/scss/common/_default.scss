@@ -1,0 +1,38 @@
+
+// DEFAULT STYLES
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $ff-inter;
+  font-size: 15px;
+  color: $color-main-dark;
+
+  @include mq(tablet) {
+    font-size: 16px;
+  }
+}
+
+.container { // 438+20+20=478
+  display: block;
+  max-width: $container-mob;
+  margin: 0 auto;
+  padding: $paddings-mob;
+
+  @include mq(tablet) { //931+30+30=991
+    max-width: $container-tab;
+    padding: $paddings-tab;
+  }
+
+  @include mq(desktop) { //1780+30+30=1840 + auto(40+40)=1920
+    max-width: $container-desk;
+    padding: $paddings-desk;
+  }
+}

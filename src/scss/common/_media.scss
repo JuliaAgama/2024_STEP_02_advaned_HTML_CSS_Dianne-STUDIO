@@ -1,0 +1,55 @@
+
+//     SIZES
+
+
+//bootstrap definitions:
+//  <576px
+//	≥576px    sm
+//	≥768px    md
+//	≥992px    lg
+//	≥1200px   xl
+//	≥1400px   xxl
+
+
+
+// $BASE - basic screen layout widths (px) - BY BRIEF:
+$mob: 478;  //321-768   // 438+20+20=478             ----BASIC STYLES----
+$tab: 991;  //769-1200  //931+30+30=991
+$desk: 1840; //1201+    //1780+30+30=1840 + auto(40+40)=1920
+
+
+// basic container widths:
+
+$container-mob: 100%; //paddings 20px
+$container-tab: 100%; //paddings 30px
+$container-desk: 1780px; //paddings 30px    - max-width
+
+$paddings-mob: 0 20px; //paddings 20px
+$paddings-tab: 0 30px; //paddings 30px
+$paddings-desk: 0 70px; //paddings 50px
+
+
+//function to calculate relative sizes
+@function calcSize($px, $base) {  //e.g. (16, $mob), (600, $tab), (50, $desk)
+  @if $base == $xs {
+    @return $px*1px;
+  }
+  @else {
+    @return calc($px / $base)*100vw;
+  }
+}
+
+
+//     MEDIA QUERIES:
+
+// mobile first: basic styles for width: <=768px
+
+@mixin mq($point) {
+  @if $point == tablet {
+    @media only screen and (min-width: 769px) { @content; }
+  }
+  @else if $point == desktop {
+    @media only screen and (min-width: 1200px)  { @content; }
+  }
+}
+

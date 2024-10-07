@@ -1,0 +1,53 @@
+
+// FONTS on the project
+
+
+// MAJOR FONT
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: local('Gilroy-Light'), url('./../../fonts/gilroy/Gilroy-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: local('Gilroy-Medium'), url('./../../fonts/gilroy/Gilroy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy-Medium'), url('./../../fonts/gilroy/Gilroy-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: local('Gilroy-Bold'), url('./../../fonts/gilroy/Gilroy-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: local('Gilroy-Medium'), url('./../../fonts/gilroy/Gilroy-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Gilroy-Extrabold';
+  src: local('Gilroy-Medium'), url('./../../fonts/gilroy/Gilroy-ExtraBold.ttf') format('truetype');
+}
+
+// MINOR FONT
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+//************    FONTS VARIABLES *************//
+
+$ff-gilroy-light: 'Gilroy-Light', sans-serif;
+$ff-gilroy-regular: 'Gilroy-Regular', sans-serif;
+$ff-gilroy-medium: 'Gilroy-Medium', sans-serif;
+$ff-gilroy-semibold: 'Gilroy-Semibold', sans-serif;
+$ff-gilroy-bold: 'Gilroy-Bold', sans-serif;
+
+
+$ff-inter: "Inter", sans-serif;

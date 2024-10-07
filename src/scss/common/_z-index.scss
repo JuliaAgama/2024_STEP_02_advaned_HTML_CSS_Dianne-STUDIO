@@ -1,0 +1,12 @@
+
+// Z-index (variables):
+
+$z-mark: 1;      //1-9: inside elements over block content
+$z-mark-2: 2;
+$z-header: 9;    // - sticky header
+$z-blur: 10;     //10 - blur mask
+$z-menu: 100;    //100 - menu, navigation, side-bar
+$z-menu--mark: 101;
+$z-modal: 1000;  //1000 - modal pop-ups
+$z-alert: 10000; //10000 - alert warnings
+

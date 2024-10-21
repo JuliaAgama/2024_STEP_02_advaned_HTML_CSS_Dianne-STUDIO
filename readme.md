@@ -19,14 +19,18 @@ Julia Verchyonova:
 - Header;
 - First-page;
 - About;
-- Services;
 - Works;
-- Clients;
 - Team;
+
+Ashur Vasim:
+
+- Services (What I do);
+- Clients;
 - Contact;
 - Footer;
 
 # Web Preview link
+
 
 # GitHub link
 

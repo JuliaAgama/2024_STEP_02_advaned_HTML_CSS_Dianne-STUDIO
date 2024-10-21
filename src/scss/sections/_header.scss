@@ -1,5 +1,52 @@
 
+// HEADER
 
-@import 'header';
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
 
-@import 'footer';
+
+//MAIN LOGO
+
+.main-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__img {
+    width: 91px;
+    height: 35px;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  &__name {
+    display: none;
+    font-family: $ff-gilroy-medium;
+    font-size: 35px;
+    line-height: 1.172;
+    letter-spacing: -2px;
+    position: relative;
+
+    @include mq(tablet) {
+      display: block;
+    }
+
+    & span {
+      font-family: $ff-gilroy-bold;
+      font-weight: 800;
+    }
+
+    &::after {
+      content: '\00AE';
+      font-size: 25px;
+      font-weight: 300;
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+  }
+}

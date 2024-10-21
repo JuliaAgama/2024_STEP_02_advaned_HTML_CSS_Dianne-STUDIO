@@ -1,0 +1,97 @@
+
+// ABOUT SECTION
+
+.about {
+
+  &__upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 23px 0;
+
+    @include mq(desktop) {
+      flex-direction: row;
+      gap: 0;
+    }
+  }
+
+  &__text {
+    font-family: $ff-gilroy-light;
+    font-size: calcSize(30, $mob); //by brief 30px
+    line-height: 1.152;
+    text-align: center;
+    margin: 0 -5px;
+    padding: 7px 0; //by brief total 30px
+
+    @include mq(tablet) {
+      font-size: calcSize(52, $tab); //by brief 52px
+      margin: 0;
+    }
+
+    @include mq(desktop) {
+      font-size: calcSize(56, $desk); //by brief 62px
+      text-align: left;
+      margin-right: -16px;
+    }
+
+    @include mq(xl) {
+      font-size: 62px;
+      margin: 0;
+    }
+
+    & b {
+      font-family: $ff-gilroy-bold;
+      line-height: 1.225;
+    }
+  }
+
+  &__socials-box {
+    width: 100%;
+    background: $color-main-dark;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    gap: 30px;
+    padding: 40px 30px;
+
+    @include mq(desktop) {
+      max-width: 485px;
+      height: 100%;
+      padding: 60px 70px;
+    }
+  }
+
+  &__title {
+    font-family: $ff-gilroy-medium;
+    font-size: calcSize(28, $mob); //by brief 28px
+    color: $color-minor-light;
+
+    @include mq(tablet) {
+      font-size: 28px;
+    }
+
+    @include mq(desktop) {
+      font-size: 32px;
+    }
+  }
+
+  &__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 17px;
+    padding-bottom: 30px;
+    margin: 0 -10px;
+
+    @include mq(desktop) {
+      gap: calcSize(20, $desk)
+    }
+
+    @include mq(xl) {
+      gap: 20px;
+    }
+  }
+}

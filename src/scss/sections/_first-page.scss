@@ -1,0 +1,71 @@
+
+// FIRST PAGE
+
+
+.first-page {
+
+  &__content {
+    padding: 10px 0;
+    max-width: 100%;
+    width: max-content;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    display: block;
+    font-family: $ff-gilroy-regular;
+    font-weight: 300;
+    line-height: 1.153;
+    text-transform: capitalize;
+
+    @include mq(tablet) {
+      font-size: calcSize(120, $tab); //by brief 120px
+    }
+
+    @include mq(desktop) {
+      font-size: 140px; //by brief 150px
+    }
+
+    @include mq(xl) {
+      font-size: 150px;
+    }
+  }
+
+  &__arrow {
+    width: 45px;
+    height: 40px;
+    margin-bottom: 4px;
+
+    @include mq(tablet) {
+      margin-bottom: 30px;
+    }
+
+    @include mq(desktop) {
+      margin-bottom: 41px;
+    }
+  }
+
+  &__banner {
+    width: 100%;
+    height: calcSize(638, $mob);
+    object-fit: cover;
+    object-position: center;
+
+    @include mq(tablet) {
+      height: 956px;
+    }
+
+    @include mq(desktop) {
+      height: 956px;
+    }
+  }
+}
+
+
+
+

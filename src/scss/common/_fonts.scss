@@ -51,3 +51,44 @@ $ff-gilroy-bold: 'Gilroy-Bold', sans-serif;
 
 
 $ff-inter: "Inter", sans-serif;
+
+
+//************    TITLES FONTS   *************//
+
+$ff-title--main: $ff-gilroy-semibold;
+$ff-title--section: $ff-gilroy-regular;
+
+
+.title {
+  text-transform: uppercase;
+
+  &--main {  //main title
+    font-family: $ff-title--main;
+    font-size: calcSize(56, $mob); //by brief 57px
+    line-height: 1.172;
+
+    @include mq(tablet) {
+      font-size: calcSize(120, $tab); //by brief 120px
+    }
+
+    @include mq(desktop) {
+      font-size: 140px; //by brief 150px
+    }
+  }
+
+  &--section {  //section titles
+    font-family: $ff-title--section;
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 1.153;
+
+    @include mq(tablet) {
+      font-size: 150px;
+    }
+
+    @include mq(desktop) {
+      font-size: 212px;
+    }
+  }
+
+}

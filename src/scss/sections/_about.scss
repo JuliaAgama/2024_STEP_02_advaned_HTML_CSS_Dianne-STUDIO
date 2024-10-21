@@ -13,6 +13,7 @@
     @include mq(desktop) {
       flex-direction: row;
       gap: 0;
+      padding: 93px 0;
     }
   }
 
@@ -36,7 +37,7 @@
     }
 
     @include mq(xl) {
-      font-size: 62px;
+      font-size: 60px;
       margin: 0;
     }
 
@@ -77,6 +78,14 @@
     }
   }
 
+  &__bottom {
+    @include mq(desktop) {
+      border-top: 1px solid $color-main-dark;
+      border-bottom: 1px solid $color-main-dark;
+      padding: 70px 0;
+    }
+  }
+
   &__logos {
     display: flex;
     flex-wrap: wrap;
@@ -87,7 +96,7 @@
     margin: 0 -10px;
 
     @include mq(desktop) {
-      gap: calcSize(20, $desk)
+      gap: calcSize(20, $desk);
     }
 
     @include mq(xl) {

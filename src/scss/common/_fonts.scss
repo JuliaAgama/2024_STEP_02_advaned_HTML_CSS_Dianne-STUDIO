@@ -78,16 +78,18 @@ $ff-title--section: $ff-gilroy-regular;
 
   &--section {  //section titles
     font-family: $ff-title--section;
-    font-size: 80px;
+    font-size: calcSize(80, $mob); //by brief 80px
     font-weight: 300;
     line-height: 1.153;
+    text-align: center;
+    max-width: 100%;
 
     @include mq(tablet) {
-      font-size: 150px;
+      font-size: calcSize(150, $tab); // by brief 150px
     }
 
     @include mq(desktop) {
-      font-size: 212px;
+      font-size: 212px; // by brief 212px
     }
   }
 

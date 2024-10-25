@@ -1,23 +1,24 @@
 
 // SELECTED WORKS
 
+// Julia Verchyonova
+
 .works {
+  border-bottom: 1px solid $color-main-dark;
 
   &__content {
     padding: 30px 0;
 
     @include mq(desktop) {
       padding-top: 70px;
-      padding-bottom: 100px;
+      padding-bottom: 109px;
     }
   }
 
   &__list {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    // justify-content: center;
-    // align-items: center;
-    // align-content: center;
     gap: 40px;
     padding-top: 30px;
     padding-bottom: 40px;
@@ -38,8 +39,91 @@
     }
 
     @include mq(desktop) {
-      grid-template-columns: repeat (3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 30px;
+    }
+
+    &:first-child {
+
+      & .works__item-capture {
+
+        @include mq(desktop) {
+          grid-row-start: 1;
+          grid-column-start: 1;
+      }
+
+      }
+    }
+
+    &-img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    &-capture {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: relative;
+      padding-bottom: 83px;
+
+      @include mq(tablet) {
+        gap: 30px;
+      }
+    }
+
+    &-title{
+      font-family: $ff-gilroy-bold;
+      font-size: 35px;
+      line-height: 1.172;
+
+      @include mq(tablet) {
+        font-size: 40px;
+        line-height: 1.1;
+      }
+    }
+
+    &-notes {
+      display: flex;
+      gap: calcSize(30, $mob); //30px
+
+      @include mq(tablet) {
+        gap: 30px;
+      }
+    }
+
+    &-note {
+      font-family: $ff-gilroy-medium;
+      font-size: 18px;
+      line-height: 1.172;
+      padding: 15px calcSize(30, $mob); //15px 30px
+
+      @include mq(tablet) {
+        padding: 15px 30px;
+      }
+
+    }
+
+    &-button {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  &__button {
+    display: block;
+    width: 100%;
+    font-family: $ff-gilroy-medium;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 60px;
+    margin: 0 auto;
+
+    @include mq(tablet) {
+      width: max-content;
     }
   }
 

@@ -20,7 +20,8 @@ $desk: 1840; //1201+    //1780+30+30=1840 + auto(40+40)=1920
 $xl: 1890;
 
 
-//function to calculate relative sizes
+//function to calculate relative sizes:
+
 @function calcSize($px, $base) {  //e.g. (16, $mob), (600, $tab), (50, $desk)
   @if $base == $xs {
     @return $px*1px;
@@ -36,9 +37,14 @@ $container-mob: 100%; //paddings 20px
 $container-tab: 100%; //paddings 30px
 $container-desk: 1780px; //paddings 30px    - max-width
 
-$paddings-mob: 0 calcSize(20, $mob); //paddings 20px
-$paddings-tab: 0 calcSize(30, $tab); //paddings 30px
-$paddings-desk: 0 calcSize(70, $desk); //paddings 30px +40px(auto)
+
+$padding-horiz-mob: 20; //20px
+$padding-horiz-tab: 30; //30px
+$padding-horiz-desk: 70; //70px
+
+$paddings-mob: 0 calcSize($padding-horiz-mob, $mob); //paddings 20px
+$paddings-tab: 0 calcSize($padding-horiz-tab, $tab); //paddings 30px
+$paddings-desk: 0 calcSize($padding-horiz-desk, $desk); //paddings 30px +40px(auto)
 $paddings-xl: 0 70; //paddings 30px +40px(auto)
 
 

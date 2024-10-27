@@ -33,6 +33,7 @@ Ashur Vasim:
 # Web Preview link
 https://juliaagama.github.io/2024_STEP_02_advaned_HTML_CSS_Dianne-STUDIO/
 
+TO ADD GITHUB PAGES from DIST: (git subtree push --prefix dist origin gh-pages)
 
 # GitHub link
 

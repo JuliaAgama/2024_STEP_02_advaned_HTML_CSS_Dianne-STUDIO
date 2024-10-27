@@ -72,7 +72,10 @@ $ff-title--section: $ff-gilroy-regular;
     }
 
     @include mq(desktop) {
-      font-size: 140px; //by brief 150px
+      font-size: calcSize(150, $desk); //by brief 150px
+    }
+    @include mq(xl) {
+      font-size: 150px;
     }
   }
 
@@ -89,7 +92,11 @@ $ff-title--section: $ff-gilroy-regular;
     }
 
     @include mq(desktop) {
-      font-size: 212px; // by brief 212px
+      font-size: calcSize(202, $desk); // by brief 212px
+    }
+
+    @include mq(xl) {
+      font-size:  206px; // by brief 212px
     }
   }
 

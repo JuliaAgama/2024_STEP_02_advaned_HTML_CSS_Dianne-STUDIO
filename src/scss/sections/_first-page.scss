@@ -24,18 +24,6 @@
     font-weight: 300;
     line-height: 1.153;
     text-transform: capitalize;
-
-    @include mq(tablet) {
-      font-size: calcSize(120, $tab); //by brief 120px
-    }
-
-    @include mq(desktop) {
-      font-size: 140px; //by brief 150px
-    }
-
-    @include mq(xl) {
-      font-size: 150px;
-    }
   }
 
   &__arrow {

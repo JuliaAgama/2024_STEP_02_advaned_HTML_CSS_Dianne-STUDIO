@@ -148,39 +148,39 @@ button {
 
   &__name {
     font-family: $ff-gilroy-regular;
-    font-size: calcSize(30, $mob); //30px
+    font-size: calcSize(30, $mob); //by brief 30px
     font-weight: 800;
     line-height: 1.225;
     padding-bottom: 5px;
 
     @include mq(tablet) {
-      font-size: calcSize(30, $tab); //30px
+      font-size: calcSize(30, $tab); // by brief 30px
     }
 
     @include mq(desktop) {
-      font-size: calcSize(30, $desk); //30px
+      font-size: calcSize(30, $desk); // by brief 30px
     }
 
     @include mq(xl) {
-      font-size: 30px;
+      font-size: 30px; // by brief 30px
     }
   }
 
   &__position {
     font-family: $ff-gilroy-medium;
-    font-size: calcSize(20, $mob); //20px
+    font-size: calcSize(20, $mob); // by brief 20px
     line-height: 1.172;
 
     @include mq(tablet) {
-      font-size: calcSize(20, $tab); //20px
+      font-size: calcSize(20, $tab); // by brief 20px
     }
 
     @include mq(desktop) {
-      font-size: calcSize(20, $desk); //20px
+      font-size: calcSize(20, $desk); // by brief 20px
     }
 
     @include mq(xl) {
-      font-size: 20px;
+      font-size: 20px; // by brief 20px
     }
 
   }
@@ -219,31 +219,31 @@ button {
 
   &__subtitle {
     font-family: $ff-gilroy-regular;
-    font-size: calcSize(30, $mob); //30px
+    font-size: calcSize(30, $mob); // by brief 30px
     line-height: 1.172;
 
     @include mq(tablet) {
-      font-size: 30px
+      font-size: 30px //  by brief 
     }
   }
 
   &__title {
     font-family: $ff-gilroy-bold;
-    font-size: calcSize(40, $mob); //40px
+    font-size: calcSize(40, $mob); // by brief 40px
     line-height: 1.172;
     text-align: center;
 
     @include mq(tablet) {
-      font-size: calcSize(64, $tab); //64px
+      font-size: calcSize(64, $tab); // by brief 64px
       text-align: left;
     }
 
     @include mq(desktop) {
-      font-size: calcSize(62, $desk); //64px
+      font-size: calcSize(62, $desk); // by brief 64px
     }
 
     @include mq(xl) {
-      font-size: 60px; //64px
+      font-size: 60px; // by brief 64px
     }
   }
 

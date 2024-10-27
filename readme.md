@@ -10,7 +10,8 @@ HTML5, CSS3, Gulp, SCSS.
 
 # Contributors
 
-Julia Verchyonova
+Julia Verchyonova,
+Ashur Vasim
 
 # Tasks & Responsibilities
 

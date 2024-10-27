@@ -92,11 +92,11 @@ $ff-title--section: $ff-gilroy-regular;
     }
 
     @include mq(desktop) {
-      font-size: calcSize(200, $desk); // by brief 212px
+      font-size: calcSize(190, $desk); // by brief 212px
     }
 
     @include mq(xl) {
-      font-size:  200px; // by brief 212px
+      font-size:  190px; // by brief 212px
     }
   }
 

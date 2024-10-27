@@ -239,11 +239,11 @@ button {
     }
 
     @include mq(desktop) {
-      font-size: calcSize(62, $desk); // by brief 64px
+      font-size: calcSize(54, $desk); // by brief 64px
     }
 
     @include mq(xl) {
-      font-size: 60px; // by brief 64px
+      font-size: 54px; // by brief 64px
     }
   }
 

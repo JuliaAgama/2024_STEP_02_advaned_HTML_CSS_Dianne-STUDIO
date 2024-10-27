@@ -3,3 +3,52 @@
 
 // Julia Verchyonova
 
+.team {
+  border-bottom: 1px solid $color-main-dark;
+
+  &__content {
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+    @include mq(desktop) {
+      padding-top: 50px;
+      padding-bottom: 48px;
+    }
+  }
+
+  &__title {
+    padding-bottom: 30px;
+
+    @include mq(desktop) {
+      padding-bottom: 50px;
+    }
+  }
+
+  &__gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+
+    @include mq(tablet) {
+      grid-template-columns: repeat(2, 1fr);
+      // gap: 40px 30px;
+    }
+
+    @include mq(desktop) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__cta {
+    @include mq(tablet) {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    @include mq(desktop) {
+      grid-column-start: 3;
+      grid-column-end: 5;
+    }
+  }
+}
+

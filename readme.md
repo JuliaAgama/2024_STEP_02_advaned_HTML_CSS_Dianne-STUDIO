@@ -31,8 +31,10 @@ Ashur Vasim:
 - Footer;
 
 # Web Preview link
+https://juliaagama.github.io/2024_STEP_02_advaned_HTML_CSS_Dianne-STUDIO/
 
 
 # GitHub link
 
 https://github.com/JuliaAgama/2024_STEP_02_advaned_HTML_CSS_Dianne-STUDIO
+

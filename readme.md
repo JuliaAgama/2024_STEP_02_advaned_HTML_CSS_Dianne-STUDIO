@@ -22,36 +22,34 @@ Julia Verchyonova:
 - Works;
 - Team;
 
-# Brief
-
-Зверстати макет [Digital Design](https://www.figma.com/file/C4PXRgbebIOSfqeAuu2RwG/digital-design?type=design&node-id=0%3A1&mode=design&t=WLRl50p8PX0B6Hfo-1)
-
-## Технічні вимоги до верстки
-
-- Класи елементів повинні бути написані згідно методології BEM. При іменуванні класів дотримуйтесь схеми іменування Two Dashes (`block-name__elem-name--mod-name`)
-- Стилізація до проекту повинна бути написана з допомогою препроцессору `SASS/SCSS`
-- При виконанні завдання дотримуватись вимог до верстки та написання SASS/SCSS. Файли з вимогами мохна знайти в корні репозиторію в папці `technical criteria`.
-- Для проекту використати збирач проекту з папки `gulp-builder` в репозиторії.
-
-- макет `Mobile 320` показує, як як повинна виглядати сторінка при ширині екрану від 320 до 768 включно.
-- макет `Tablet 768` показує, як як повинна виглядати сторінка при ширині екрану від 768 до 1200 включно.
-- макет `Desktop 1200` показує, як повинна виглядати сторінка при ширині екрану від 1200 і ширше.
-
-  _Якщо якийсь елемент буде негарно виглядати на будь-якій ширині екрану, ви можете зменьшити розмір елемента ширині, ширину зображення чи розмір шрифта_
-
-- Логотип (іконка та текст) повинен бути клікабельним посиланням
-- Зображення в першій секції контентне і має бути вставлене тегом img
-- Зображення в секції `What I do` декоративне і має бути вставлене фоном
-- Цифри пунктів опису в секції `What I do` мають бути зроблені псевдоелементами.
-- В секції `Selected work` написи Digital Design, 2022, 2023 - це посилання.
-- Елементи в секції `My clients` статичні текстові, посилань там не має бути.
-- В секції `Our Team` в картці члена команди при натисканні на ім'я, посаду та зображення передбачено перехід на сторінку члена команди.
-
-- Використовувати оригінальні зображення. Якщо треба змінити стиль зображення - використовуйте стилі.
-- Всі іконки соціальних мереж повинні бути посиланнями.
-- Для зручності всі картинки з макета прикладені в папці images
-
 # GitHub link
 
-https://github.com/JuliaAgama/2024_STEP_02_advaned_HTML_CSS_Dianne-STUDIO
+<https://github.com/JuliaAgama/2024_STEP_02_advaned_HTML_CSS_Dianne-STUDIO>
 
+# Brief
+
+Create layout [Digital Design](https://www.figma.com/file/C4PXRgbebIOSfqeAuu2RwG/digital-design?type=design&node-id=0%3A1&mode=design&t=WLRl50p8PX0B6Hfo-1)
+
+## Technical requirements
+
+- Element classes must be written according to the BEM methodology. When naming classes, follow the Two Dashes naming scheme (`block-name__elem-name--mod-name`)
+- Styling for the project must be written using the `SASS/SCSS` preprocessor
+- When performing the task, follow the requirements for layout and writing SASS/SCSS. Files with moss requirements can be found in the root of the repository in the `technical criteria` folder.
+- For the project, use the project builder from the `gulp-builder` folder in the repository.
+
+- `Mobile 320` layout shows how the page should look with a screen width of 320 to 768 inclusive.
+- `Tablet 768` layout shows how the page should look with a screen width of 768 to 1200 inclusive.
+- `Desktop 1200` layout shows how the page should look with a screen width of 1200 and wider.
+
+  _If an element looks bad on any screen width, you can reduce the element width, image width, or font size_
+
+- The logo (icon and text) must be a clickable link
+- The image in the first section is content and must be inserted with the img tag
+- The image in the `What I do` section is decorative and must be inserted as a background
+- The numbers of the description items in the `What I do` section must be made pseudo-elements.
+- In the `Selected work` section, the inscriptions Digital Design, 2022, 2023 are links.
+- The elements in the `My clients` section are static text, there should be no links there.
+- In the `Our Team` section, in the team member's card, when clicking on the name, position and image, a transition to the team member's page is provided.
+
+- Use original images. If you need to change the style of the image, use styles.
+- All social media icons must be links.
